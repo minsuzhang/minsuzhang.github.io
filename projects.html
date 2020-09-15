@@ -1,0 +1,706 @@
+<!DOCTYPE HTML>
+<!--
+Editorial by HTML5 UP
+html5up.net | @ajlkn
+Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+<style>
+.modalDialog {
+	position: fixed;
+	font-family: Arial;
+	font-size: 14px;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 1; /* Sit on top */
+	opacity:0;
+	pointer-events: none;
+	width: 100%; /* Full width */
+	height: 100%; /* Full height */
+	overflow: auto; /* Enable scroll if needed */
+	background-color: rgba(0,0,0,0.5); /* Black w/ opacity */
+}
+.modalDialog:target {
+	opacity:1;
+	pointer-events: auto;
+}
+.modalDialog > div {
+	width: 90%;
+	position: relative;
+	margin: 5% auto;
+	padding: 13px 20px 13px 20px;
+	border-radius: 10px;
+	background-color: #fefefe;
+	border: 1px solid #888;
+}
+.close {
+	background: #606061;
+	color: #FFFFFF;
+	line-height: 25px;
+	position: absolute;
+	right: -12px;
+	text-align: center;
+	top: -10px;
+	width: 24px;
+	text-decoration: none;
+	font-weight: bold;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+	-moz-box-shadow: 1px 1px 3px #000;
+	-webkit-box-shadow: 1px 1px 3px #000;
+	box-shadow: 1px 1px 3px #000;
+}
+.close:hover {
+	color: #000;
+	text-decoration: none;
+	cursor: pointer;
+}
+.collapsible {
+	background-color: white;
+	color: white;
+	cursor: pointer;
+	padding: 0px 11px;
+	/* width: 10%; */
+	border: 0;
+	text-align: middle;
+	outline: none;
+	font-size: 12px;
+}
+
+.collapsible:hover {
+	background-color: rgba(245, 106, 106, 0.25);
+
+}
+.active{
+	background-color: white;
+}
+
+.content {
+	padding: 18px;
+	display: none;
+	overflow: hidden;
+	background-color: #f1f1f1;
+	font-family: "View details Sans", sans-serif;
+	font-size: 1em
+	margin: 2em 0 0 0;
+
+}
+</style>
+<head>
+	<title>Minsu Zhang - PhD Student - UT Austin</title>
+	<meta name="robots" content="index,follow" />
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<link rel="icon" href="images/mz.png">
+</head>
+<body class="is-preload">
+
+	<!-- Wrapper -->
+	<div id="wrapper">
+
+		<!-- Main -->
+		<div id="main">
+			<div class="inner">
+
+				<!-- Header -->
+				<header id="header">
+					<a href="index.html" class="logo">
+						<strong>Minsu Zhang</strong> personal website
+					</a>
+				</header>
+				<section>
+					<h2>My research</h2>
+					<div class="row">
+						<div class="col-11 col-12-small" style="font-family: sans-serif">
+							<div style="background-color: #f1f1f1">
+								<div style="padding: 10px">
+									<div style="font-size: 1.1em">
+										I desire to advance neural interface technology towards implementing closed-loop neural
+										control. This objective has led me to pursue research in electrical engineering, with focus in
+										the areas of <strong>signal processing</strong>, <strong>biomedical devices</strong>, and <strong>neuroengineering</strong>. To advance this
+										ambition, I am working on developing noninvasive brain stimulation methods for treating chronic mental diseases with <i>Prof. José del R. Millán</i> at the
+										<a href="http://sites.utexas.edu/jdrmillan/" target="_blank">University of Texas at Austin</a>. Prior to
+										this experience, I participated in microelectromechanical system neural probe research at the
+										<a href="https://bsi.kist.re.kr/dt_team/il-joo-cho/" target="_blank">Korea Institute of Science and Technology</a>
+										and modeled the characteristics of polymer composite
+										materials through complex network analysis at the
+										<a href="https://sites.google.com/view/licswww/" target="_blank">Korea University</a>.
+									</div>
+								</div>
+							</div>
+						</p>
+						<ul class="actions">
+							<li><a href="doc/GraphicalResearchSummary_Aug_2020.pdf " class="button big" target="_blank">Slides</a></li>
+							<!-- <li><a href="https://www.linkedin.com/in/%EB%AF%BC%EC%88%98-%EC%9E%A5-19b962158/?locale=en_US" class="button big">Linkedin</a></li> -->
+						</ul>
+					</div>
+				</div>
+			</section>
+			<section>
+				<h2>Publications</h2>
+				<div class="row">
+					<div class="col-11 col-12-small">
+						<div style="background-color: #f1f1f1">
+							<div style="padding: 10px">
+								<div style="font-family: Arial;">
+									<div style="font-size: 1.1em">
+										<li>
+											S.H. Park, J. Hwang, G.S. Park, J.H. Ha, <u>M. Zhang</u>, D. Kim, D.J. Yun, S. Lee, S.H. Lee, Modeling
+											the electrical resistivity of polymer composites with segregated structures, <em>Nature Communications</em>, 2019.
+											(<a href="https://www.nature.com/articles/s41467-019-10514-4" target="_blank">Paper</a>)
+										</li>
+										<li>
+											<u>M. Zhang</u>, S.H. Lee, Agent-based modeling approach of CSK modulation, <em>Proceedings of Joint
+												Conference on Communications and Informatics</em>, 2018.
+												(<a href="doc/CSK.pdf" target="_blank">Paper</a>)
+											</li>
+											<li>
+												<u>M. Zhang</u>, H. Kim, S.H. Lee, Measurement of CSK channel capacity using the constraint satisfaction problem approach,
+												<em>Proceedings of KICS Joint Summer Conference</em>, 2018.
+												(<a href="doc/kics_poster.pdf" target="_blank">Poster</a>)
+											</li>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+
+
+			<section>
+
+
+				<div class="posts">
+					<!-- </section> -->
+					<article class="6u 12u$(xsmall) work-item">
+
+						<div class="row">
+							<div class="col-11 col-12-small">
+								<h2>MEMS system for studying long-range neural circuits</h2>
+								<h3>KIST (2020)</h3>
+								<div class="actions">
+									<a href="#openModal_may2020">
+										<!-- <div style="background-color: #cff6cf"> -->
+										<div style="background-color: #FFFFFF">
+											<div class="box">
+												<span class="image fit">
+													<img src="images_research/hpc.jpg" alt="" />
+												</span>
+												<div id="openModal_may2020" class="modalDialog">
+													<div>
+														<a href="#close" title="" class="close">
+															&times;
+														</a>
+
+														<!-- <div class="content"> -->
+
+														<div class="row gtr-50">
+															<div class="col-4">
+																<span class="image fit">
+																	<img src="images_research/hpc.jpg" alt="" />
+																</span>
+															</div>
+															<div class="col-4">
+																<span class="image fit">
+																	<img src="images_research/intan_2.jpg" alt="" />
+																</span>
+															</div>
+															<div class="col-4">
+																<span class="image fit">
+																	<img src="images_research/opto_1.jpg" alt="" />
+																</span>
+															</div>
+														</div>
+														<p style="font-family: Arial;">
+															I have been building a microelectromechanical system for neural circuitry investigation.
+															Our goal was to build an electrophysiology
+															system for verifying intricately structured long-range neural circuits in thick
+															rodent slices. This system could<strong1> extract single-unit extracellular recordings</strong1> from multiple
+															distant regions in the brain and <strong1>optogenetically stimulate cell-type specific neurons</strong1>.
+															While conducting this research, I learned skills in microsystem
+															design for minimizing the electromagnetic interference coupling and biological experiment
+															techniques such as slice preparation and immunohistochemistry staining.
+														</style>
+													</p>
+														<ul>
+															<li>
+																<i style="font-family: Arial;">Detailed description on this project will be updated upon journal publication.</i>
+															</li>
+														</ul>
+
+													</div>
+												</div>
+											</div>
+										</div>
+									</a>
+								</div>
+								<!-- <button type="buttonbig" class="collapsible">INFO</button> -->
+
+								<p>
+									<ul>
+										<li>
+											<i><strong>MEMS neural probe, optogenetics</strong></i>
+										</li>
+									</ul>
+								</p>
+							</div>
+						</div>
+					</article>
+
+
+					<article class="6u 12u$(xsmall) work-item">
+
+						<div class="row">
+							<div class="col-11 col-12-small">
+								<h2>Modeling the resistivity of CNT polymer composites </h2>
+								<h3>Korea University (2019)</h3>
+								<div class="actions">
+									<a href="#Proj1">
+										<!-- <div style="background-color: #cff6cf"> -->
+										<div style="background-color: #FFFFFF">
+											<div class="box">
+												<span class="image fit">
+													<img src="images_research/voronoi_1_mod.jpg" alt="" />
+												</span>
+												<div id="Proj1" class="modalDialog">
+													<div>
+														<a href="#close" title="" class="close">
+															&times;
+														</a>
+
+														<!-- <div class="content"> -->
+
+														<div class="row gtr-50 gtr-50">
+															<div class="col-4">
+																<span class="image fit">
+																	<img src="images_research/SEM.jpg" alt="" />
+																</span>
+															</div>
+															<div class="col-4">
+																<span class="image fit">
+																	<img src="images_research/voronoi_1.jpg" alt="" />
+																</span>
+															</div>
+															<div class="col-4">
+																<span class="image fit">
+																	<img src="images_research/nano_graph.jpg" alt="" />
+																</span>
+															</div>
+														</div>
+														<p style="font-family: Arial;">
+															Intrigued in understanding the emergent behaviors of brain-like complex network structures,
+															I participated in a polymer composite modeling project with Prof. Sang Hyun Lee at the Korea
+															University. The research was aimed at analyzing the conflicting <strong1>electrical conductivity</strong1> behavior
+															that occurs when <strong1>micro-scale and nano-scale secondary particulate fillers are mixed in polymer
+																composites</strong1> through complex network analysis. Our team simulated the polymer composite
+																structure in MATLAB and measured the electrical conductivity through Monte Carlo simulations.
+																We then verified our hypothesis of the emergent conductivity characteristics by applying
+																Voronoi geometry and percolation theory to the system. In this project, I played a pivotal
+																role in building a <strong1>3-D carbon nanotube network simulator</strong1> and accelerating it by employing
+																discretization techniques and C extension functions. This work was published in June of 2019.
+															</p>
+															<p style="font-family: Arial;">
+																While conducting this research, I was intrigued by the concept of emergence, in which a phenomenon is unnoticed at the individual level of entities but rises to the surface as the system scales up.
+																I believe that the brain can also be modeled as a complex system of neurons, with various cognitive functions corresponding to the various emergent behaviors.
+																This idea prompted me to research interfaces that can examine neural activities from the circuit to systems level to fully elucidate the underlying brain functions.
+															</p>
+														</p>
+														<ul>
+															<li>
+																S.H. Park, J. Hwang, G.S. Park, J.H. Ha, <u>M. Zhang</u>, D. Kim, D.J. Yun, S. Lee, S.H. Lee, Modeling
+																the electrical resistivity of polymer composites with segregated structures, <em>Nature Communications</em>, 2019.
+																(<a href="https://www.nature.com/articles/s41467-019-10514-4" target="_blank">Paper</a>)
+															</li>
+														</ul>
+														<!-- </div> -->
+
+													</div>
+												</div>
+											</div>
+										</div>
+									</a>
+								</div>
+								<!-- <button type="buttonbig" class="collapsible">INFO</button> -->
+
+								<p>
+									<ul>
+										<li>
+											<strong><i>Complex network analysis, hybrid polymer composites</i></strong>
+										</li>
+									</ul>
+								</p>
+							</div>
+						</div>
+					</article>
+					<!-- <hr class="major" /> -->
+
+					<article class="6u 12u$(xsmall) work-item">
+
+						<div class="row">
+							<div class="col-11 col-12-small">
+								<h2>Implementation of min-max clustering in Zigbee network</h2>
+								<h3>Korea University (2019)</h3>
+								<div class="actions">
+									<a href="#proj2">
+										<!-- <div style="background-color: #cff6cf"> -->
+										<div style="background-color: #FFFFFF">
+											<div class="box">
+												<span class="image fit">
+													<img src="images_research/minmax_2_mod.jpg" alt="" />
+												</span>
+												<div id="proj2" class="modalDialog">
+													<div>
+														<a href="#close" title="" class="close">
+															&times;
+														</a>
+															<div class="row gtr-50 gtr-50">
+																<div class="col-4">
+																	<span class="image fit">
+																		<img src="images_research/minmax.jpg" alt="" />
+																	</span>
+																</div>
+																<div class="col-4">
+																	<span class="image fit">
+																		<img src="images_research/minmax_2.jpg" alt="" />
+																	</span>
+																</div>
+																<div class="col-4">
+																	<span class="image fit">
+																		<img src="images_research/minmax_3.jpg" alt="" />
+																	</span>
+																</div>
+															</div>
+															<p style="font-family: Arial;">
+																Implementing the min-max clustering - an idea introduced in the NIPS 2017 conference paper - using microprocessor Zigbee network was my graduation project topic.
+																<strong1>Min-max clustering</strong1> is a belief propagation algorithm that results in forming <strong1>clusters with the maximum cost of agents minimized</strong1>.
+																For instance, if we consider the distance between agents as a cost, this algorithm converges to clusters which the longest distance between members within the clusters minimized.
+															</p>
+															<p style="font-family: Arial;">
+																Our team followed through the mathematical derivations of the message beliefs in the paper by implementing it in Matlab.
+																We then implemented a <strong1>mesh structure</strong1> network in the Application Programming Interface mode <i>via</i> <strong1>Zigbee communication</strong1>, and enhanced the network to accommodate up to nine agents.
+																In the end, our algorithm converged in 40 iterations for nine agents system and earned us the highest grade in the lecture presentation.
+															</p>
+															<ul>
+																<li>
+																	<a target="_blank" href="https://papers.nips.cc/paper/7140-min-max-propagation"><i>Reference</i></a>: Srinivasa et al., Min-Max Propagation, <i>Proc. of NIPS</i>, 2017.
+																</li>
+															</ul>
+
+													</div>
+												</div>
+											</div>
+										</div>
+									</a>
+								</div>
+								<!-- <button type="buttonbig" class="collapsible">INFO</button> -->
+
+								<p>
+									<ul>
+										<li>
+											<strong><i>Message-passing algorithm, Zigbee communication network</i></strong>
+										</li>
+									</ul>
+								</p>
+							</div>
+						</div>
+					</article>
+
+
+					<article class="6u 12u$(xsmall) work-item">
+
+						<div class="row">
+							<div class="col-11 col-12-small">
+								<h2>Channel capacity of color shift keying <i>via</i> agent-based modeling</h2>
+								<h3>Korea University (2018)</h3>
+								<div class="actions">
+									<a href="#proj3">
+										<!-- <div style="background-color: #cff6cf"> -->
+										<div style="background-color: #FFFFFF">
+											<div class="box">
+												<span class="image fit">
+													<img src="images_research/csk_1.jpg" alt="" />
+												</span>
+												<div id="proj3" class="modalDialog">
+													<div>
+														<a href="#close" title="" class="close">
+															&times;
+														</a>
+														<div class="row gtr-50 gtr-50">
+															<div class="col-4">
+																<span class="image fit">
+																	<img src="images_research/csk_1.jpg" alt="" />
+																</span>
+															</div>
+															<div class="col-4">
+																<span class="image fit">
+																	<img src="images_research/csk_sim_2.jpg" alt="" />
+																</span>
+															</div>
+															<div class="col-4">
+																<span class="image fit">
+																	<img src="images_research/result_comp_1.jpg" alt="" />
+																</span>
+															</div>
+														</div>
+															<p style="font-family: Arial;">
+																The problem that this research addressed was how to improve the channel capacity of color shift keying (CSK) modulation in the visible light communication system.
+																To resolve the issue, I developed an algorithm that produces the <strong1>symbol constellations that satisfy the dimming requirements</strong1> with reduced computational efforts through <strong1>agent-based modeling</strong1>.
+																My idea of applying agent-based modeling to solve the CSK problem was inspired by the computational models of the brain.
+																I intended to emulate the neural network, which employs low-complexity computations of nuclei collectively to perform high-level inferences.
+																Therefore, I set each symbol as an agent and solved the constraint satisfaction problem through distributed computations using the software NetLogo.
+															</p>
+															<p style="font-family: Arial;">
+																As a result, the devised method noticeably relieved computational demands while being <strong1>free of differential approximation errors</strong1> incurred in other existing approaches.
+																This work and an improved version of the algorithm, which included signal-dependent noise situations, were published as first-author papers and presented in poster sessions at two conferences in 2018.
+															</p>
+															<ul>
+																<li>
+																	<u>M. Zhang</u>, H. Kim, S.H. Lee, Measurement of CSK channel capacity using the constraintsatisfaction problem approach, <i>Proceedings of KICS Joint Summer Conference</i>, 2018.
+																	(<a target="_blank" href="doc/CSK.pdf">Paper</a>)
+																</li>
+																<li>
+																	<u>M. Zhang</u>, S.H. Lee, Agent-based modeling approach of CSK modulation, <i>Proceedings of Joint
+																		Conference on Communications and Informatics</i>, 2018.
+																		(<a target="_blank" href="doc/kics_poster.pdf">Poster</a>)
+																	</li>
+																</ul>
+
+													</div>
+												</div>
+											</div>
+										</div>
+									</a>
+								</div>
+								<!-- <button type="buttonbig" class="collapsible">INFO</button> -->
+
+								<p>
+									<ul>
+										<li>
+											<strong><i>Visible light communication, agent-based modeling</i></strong>
+										</li>
+									</ul>
+								</p>
+							</div>
+						</div>
+					</article>
+
+					<article class="6u 12u$(xsmall) work-item">
+
+						<div class="row">
+							<div class="col-11 col-12-small">
+								<h2><i>EyeWire:</i> Connectome mapping project <i>via</i> machine learning</h2>
+								<h3>Princeton University (2015)</h3>
+								<div class="actions">
+									<a href="#proj4">
+										<!-- <div style="background-color: #cff6cf"> -->
+										<div style="background-color: #FFFFFF">
+											<div class="box">
+												<span class="image fit">
+													<img src="images_research/retina_1.jpg" alt="" />
+												</span>
+												<div id="proj4" class="modalDialog">
+													<div>
+														<a href="#close" title="" class="close">
+															&times;
+														</a>
+														<div class="row gtr-50 gtr-50">
+															<div class="col-4">
+																<span class="image fit">
+																	<img src="images_research/cube_2.jpg" alt="" />
+																</span>
+															</div>
+															<div class="col-4">
+																<span class="image fit">
+																	<img src="images_research/retina_1.jpg" alt="" />
+																</span>
+															</div>
+															<div class="col-4">
+																<span class="image fit">
+																	<img src="images_research/starbursts-and-ganglion_1.jpg" alt="" />
+																</span>
+															</div>
+														</div>
+														<p style="font-family: Arial;">
+															My research in neuroengineering began during an internship at the
+															Princeton University Neuroscience Institute in 2015. While there, I worked on the connectomics project <i>EyeWire</i> in
+															the computational neuroscience lab. Under the guidance of Prof. Sebastian Seung, our team
+															built a software program that reconstructs <strong1>3-D models of neurons from 2-D two-photon microscopy
+																images</strong1> by leveraging <strong1>machine learning techniques</strong1>. This program collected parts of
+																various neuron structures through crowdsourcing and used them to train the deep convolutional
+																network, which then classified the retinal cells. While participating in the project, I significantly
+																improved the <strong1>data assessment algorithm</strong1> of the starburst amacrine cell by computing its
+																<strong1>stratification profile in C++</strong1>. Once it became operational, our system exceeded expectations; it
+																mapped the structures of over 3,000 neurons and attracted 2.7 million online users.
+															</p>
+															<p style="font-family: Arial;">
+																This experience taught me the significance of theoretical and computational approaches to the nervous system, as well as the fundamentals of deep learning algorithms.
+																Furthermore, I was able to envision the advances in neuroscience research that would be possible when vast field of view recording technology for individual neural activities would be developed and available.
+																Such ideas led me to constantly contemplate on the mechanisms of the brain and cognition from an engineering perspective.
+															</p>
+															<ul>
+																<li>
+																	<a target="_blank" href="https://blog.eyewire.org/about/"><i>EyeWire</i></a>: Retinal connectome mapping project <i>via</i> machine learning and crowd sourcing
+																</li>
+															</ul>
+
+													</div>
+												</div>
+											</div>
+										</div>
+									</a>
+								</div>
+								<!-- <button type="buttonbig" class="collapsible">INFO</button> -->
+
+								<p>
+									<ul>
+										<li>
+											<strong><i>Computational neuroscience, machine learning</i></strong>
+										</li>
+									</ul>
+								</p>
+							</div>
+						</div>
+					</article>
+
+					<article class="6u 12u$(xsmall) work-item">
+
+						<div class="row">
+							<div class="col-11 col-12-small">
+								<!-- <h2><i>EyeWire:</i> Connectome mapping project <i>via</i> machine learning</h2>
+								<h3>Princeton University (2015)</h3> -->
+								<div class="actions">
+									<a href="#proj4">
+										<!-- <div style="background-color: #cff6cf"> -->
+										<!-- <div style="background-color: #FFFFFF">
+											<div class="box">
+												<span class="image fit">
+													<img src="images_research/retina_1.jpg" alt="" />
+												</span>
+												<div id="proj4" class="modalDialog">
+													<div>
+														<a href="#close" title="" class="close">
+															&times;
+														</a>
+														<div class="row gtr-50 gtr-50">
+															<div class="col-4">
+																<span class="image fit">
+																	<img src="images_research/cube_2.jpg" alt="" />
+																</span>
+															</div>
+															<div class="col-4">
+																<span class="image fit">
+																	<img src="images_research/retina_1.jpg" alt="" />
+																</span>
+															</div>
+															<div class="col-4">
+																<span class="image fit">
+																	<img src="images_research/starbursts-and-ganglion_1.jpg" alt="" />
+																</span>
+															</div>
+														</div>
+
+															<ul>
+																<li>
+																	<a target="_blank" href="https://blog.eyewire.org/about/"><i>EyeWire</i></a>: Retinal connectome mapping project <i>via</i> machine learning and crowd sourcing
+																</li>
+															</ul>
+
+													</div>
+												</div>
+											</div>
+										</div> -->
+									</a>
+								</div>
+								<p>
+									<!-- <ul>
+										<li>
+											<strong><i></i></strong>
+										</li>
+									</ul> -->
+								</p>
+							</div>
+						</div>
+					</article>
+
+						</section>
+
+						<script>
+						var coll = document.getElementsByClassName("collapsible");
+						var i;
+
+						for (i = 0; i < coll.length; i++) {
+							coll[i].addEventListener("click", function() {
+								this.classList.toggle("active");
+								var content = this.nextElementSibling;
+								if (content.style.display === "block") {
+									content.style.display = "none";
+								} else {
+									content.style.display = "block";
+								}
+							});
+						}
+						</script>
+
+					</section>
+				</div>
+			</div>
+
+			<!-- Sidebar -->
+			<div id="sidebar">
+				<div class="inner">
+
+					<!-- Search -->
+					<section>
+						Updated on September 13<sup>th</sup>, 2020
+					</section>
+
+					<!-- Menu -->
+					<nav id="menu">
+						<header class="major">
+							<h2>Menu</h2>
+						</header>
+						<ul>
+							<li>
+								<a href="index.html">Home</a>
+							</li>
+							<li>
+								<a href="projects.html">Research</a>
+							</li>
+							<li>
+								<a href="readings.html">Readings</a>
+							</li>
+						</ul>
+					</nav>
+					<!-- Section -->
+					<section>
+						<header class="major">
+							<h2>Contact</h2>
+						</header>
+						<ul class="contact">
+							<li class="icon solid fa-envelope"><a style="font-family: Arial;" href="mailto:minsuzhang@utexas.edu">minsuzhang@utexas.edu</a></li>
+							<li class="icon brands fa-linkedin"><a style="font-family: Arial;" href="https://www.linkedin.com/in/minsuzhang/" target="_blank"><span class="icon"> Minsu Zhang</span></a></li>
+							<li class="icon brands fa-github"><a style="font-family: Arial;" href="https://github.com/minsuzhang" target="_blank"><span class="icon"> minsuzhang</span></a></li>
+							<li class="icon brands fa-instagram"><a style="font-family: Arial;" href="https://www.instagram.com/cooking.in.austin/" target="_blank">cooking.in.austin</a></li>
+
+						</ul>
+					</section>
+					<!-- Footer -->
+
+				</div>
+			</div>
+		</div>
+
+		<!-- Scripts -->
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
+	</body>
+	</html>

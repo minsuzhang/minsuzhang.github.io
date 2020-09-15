@@ -1,0 +1,891 @@
+<!DOCTYPE HTML>
+<!--
+Editorial by HTML5 UP
+html5up.net | @ajlkn
+Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+<!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+<style>
+.modalDialog {
+	position: fixed;
+	font-family: Arial;
+	font-size: 14px;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 1; /* Sit on top */
+	opacity:0;
+	pointer-events: none;
+	width: 100%; /* Full width */
+	height: 100%; /* Full height */
+	overflow: auto; /* Enable scroll if needed */
+	background-color: rgba(0,0,0,0.5); /* Black w/ opacity */
+}
+.modalDialog:target {
+	opacity:1;
+	pointer-events: auto;
+}
+.modalDialog > div {
+	width: 90%;
+	position: relative;
+	margin: 5% auto;
+	padding: 13px 20px 13px 20px;
+	border-radius: 10px;
+	background-color: #fefefe;
+	border: 1px solid #888;
+}
+.close {
+	background: #606061;
+	color: #FFFFFF;
+	line-height: 25px;
+	position: absolute;
+	right: -12px;
+	text-align: center;
+	top: -10px;
+	width: 24px;
+	text-decoration: none;
+	font-weight: bold;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+	-moz-box-shadow: 1px 1px 3px #000;
+	-webkit-box-shadow: 1px 1px 3px #000;
+	box-shadow: 1px 1px 3px #000;
+}
+.close:hover {
+	color: #000;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+
+.collapsible {
+	background-color: white;
+	color: white;
+	cursor: pointer;
+	padding: 0px 11px;
+	/* width: 10%; */
+	border: 0;
+	text-align: middle;
+	outline: none;
+	font-size: 12px;
+}
+
+.active {
+	background-color: white;
+}
+.collapsible:hover {
+	background-color: rgba(245, 106, 106, 0.25);
+}
+
+.content {
+	padding: 18px;
+	display: none;
+	overflow: hidden;
+	background-color: #f1f1f1;
+}
+
+
+</style>
+<head>
+	<title>Minsu Zhang - PhD Student - UT Austin</title>
+	<meta name="robots" content="index,follow" />	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<link rel="icon" href="images/mz.png"/>
+</head>
+<body class="is-preload">
+
+	<!-- Wrapper -->
+	<div id="wrapper">
+
+		<!-- Main -->
+		<div id="main">
+			<div class="inner">
+
+				<!-- Header -->
+				<header id="header">
+					<a href="index.html" class="logo">
+						<strong>Minsu Zhang</strong> personal website
+					</a>
+				</header>
+
+				<!-- Content -->
+				<section>
+
+
+					<h2>Recent papers</h2>
+					<hr class="major" />
+
+
+					<div class="row gtr-50">
+						<div class="col-4 col-12-medium">
+
+							<div class="actions">
+								<a href="#openModal_may2020">
+									<!-- <div style="background-color: #cff6cf"> -->
+									<div style="background-color: #FFFFFF">
+										<div class="box">
+											<h3>Dynamic stimulation of visual cortex produces form vision in sighted and blind humans</h3>
+											<h4><i>Cell</i> (2020)</h4>
+											<div class = "box alt">
+												<div class="row gtr-50 gtr-50">
+													<span class="image fit">
+														<img src="images_readings/dynamic_stimulation.jpg" alt="" />
+													</span>
+												</div>
+											</div>
+											<ul>
+												<li>
+													<strong><i>visual cortical prosthesis</i></strong>
+												</li>
+												<li>
+												<strong><i>electrical stimulation</i></strong>
+											</li>
+										</ul>
+										<div id="openModal_may2020" class="modalDialog">
+											<div>
+												<a href="#close" title="" class="close">
+													&times;
+												</a>
+												<h3>
+													<a href="https://www.sciencedirect.com/science/article/pii/S0092867420304967" target="_blank">Beauchamp et al., Dynamic stimulation of visual cortex produces form vision in sighted and blind humans, <em>Cell</em>, 2020.</a>
+												</h3>
+													<strong>Summary</strong><br>
+													<strong1>Visual cortical prosthetic</strong1> (VCP) relys on the hypothesis that individual phosphenes are analogous to pixels and that they can easily be combined to generate a coherent image.
+													But this hypothesis has not been fully demonstrated yet.
+													This group developed an alternative strategy which <strong1>shapes were traced on the surface of visual cortex</strong1> by stimulating electrodes in <strong1>dynamic sequence</strong1>.
+													Accordingly, dynamic stimulation enabled accurate recognition of letter shapes predicted by the brains' spatial map of the visual world.
+													These findings show that a brain prosthetic can produce coherent percepts of visual forms.
+													<br></br>
+													<strong>Experiments</strong><br>
+													<strongi>E-1: Current steering in the visual cortex</strongi><br>
+													To examine the efficacy of current steering in the human visual cortex, they implanted ECoG electrodes on the primary visual cortex.
+													They delivered five intensity levels of 60 Hz, 100 ms electrical stimulation trains.
+													While delivering the trains, they asked the participants to report their percept by drawing the perceived location of the phosphene on a touch screen.
+													As a result, the different intensities of stimulation could create <strong1>virtual electrodes located between the two physical electrodes</strong1> and implement current steering.
+													<br></br>
+													<strongi>E-2: Combining dynamic stimulation with current steering</strongi><br>
+													To test the efficacy of dynamic stimulation in combination with current steering, they implanted five electrodes between the anteriorly and posteriorly along the lingual gyrus.
+													They gradually increased and decreased current to electrodes on a 400 ms window at 120 Hz.
+													The participants reported that the percepted a <strong>"line being drawn"</strong> with rating 8 on a scale of 1 to 10. (1 for discrete and 10 for continuous)
+													<br></br>
+													<strongi>E-3: Combining dynamic stimulation with current steering</strongi><br>
+													To examine whether dynamic stimulation of the visual cortex could evoke form percepts, they conducted a experiment with 24 electrodes implanted on the medial face of the occipital lobe.
+													In the experiment, receptive fields were organized in orderly mannner and the dynamic stimulation sequences corresponded to four letter like forms. (S, C, N, U)
+													As a result, the participants could discriminate the stimulation patterns with accuracy of 66% in the alternative forced choice task. (chance rate of 25%)
+													<br></br>
+													<strongi>E-4: Creating letter percepts in blind participants</strongi><br>
+													They tested the system on two blind patients with five electrodes implanted on the medial wall of visual cortex with seven dynamic stimulation sequences.
+													The drawings were quantized and followed by k-means clutering to achieve 82% and 90% of the letters placed in the correct cluster for the two patients. (boot-strap analysis, p < 1e-5)
+													The 90% accuracy particiant recognized <strong1>86 forms per minute with 87% accuracy</strong1> for another test when two forms were presented at a time.
+													<br></br>
+													<strong>Future directions</strong><br>
+													First, the presented VCP uses surface eletrodes that electrically stimulates the brain at mA level.
+													If penetration electrodes could be used for the purpose, it would enable stimulating at uA level which could activate smaller volume and hence improve the spatial resolution.
+													Also, using non-electrical stimulation modalities such as optogenetic, mageneto thermal, and focused ultrasound would lead to new advantages in performing VCP.
+
+
+
+											</div>
+										</div>
+									</div>
+								</div>
+							</a>
+						</div>
+
+
+						<div class="actions">
+							<a href="#openModal_apr2020">
+								<div style="background-color: #FFFFFF">
+									<div class="box">
+										<h3>Emerging modalities and implantable technologies for neuromodulation</h3>
+										<h4><i>Cell</i> (2020)</h4>
+										<div class = "box alt">
+											<div class="row gtr-50 gtr-50">
+												<span class="image fit">
+													<img src="images_readings/neuromod2.jpg" alt="" />
+												</span>
+											</div>
+										</div>
+										<ul>
+											<li>
+												<strong><i>neuromodulation modalities</i></strong>
+											</li>
+											<li>
+												<strong><i>implantable devices</i></strong>
+											</li>
+									</ul>
+									<div id="openModal_apr2020" class="modalDialog">
+										<div>
+											<a href="#close" title="" class="close">
+												&times;
+											</a>
+											<h3>
+												<a href="https://www.sciencedirect.com/science/article/pii/S0092867420302312" target="_blank">Won et al., Emerging modalities and implantable technologies for neuromodulation, <em>Cell</em>, 2020.</a>
+											</h3>
+											<strong>Summary</strong><br>
+											This paper reviews the current miniaturized implantable devices technologies for controlling neural activity.
+											Future research should be directed towards improving <strong>precision, fidelity, long-term viablity</strong> and integrate <strong>multimodality towards closed-loop feedback</strong> and personalized therapeutics.
+											Neuromodulations include neuroprosthetics - repairing and replacing imparied neural function; and
+											neuromodulation - regulating disordered neural activity such as deep brain stimulation, spinal cord stimulation, and vagus nerve stimulation.
+											<br></br>
+
+											<strong>Neuromodulation modalities</strong>
+											<br>
+											<strongi>Electrical</strongi>
+											<br>
+											1. Mechanism: induce potential gradients across neurons, to initiate functional responses by depolarizing and hyper polarizing the cell membrane
+											<br>
+											2. Key metric: charge injection capacity (CIC), defined as maximum deliverable charge per unit area
+											<br>
+											3. Current directions: development of alternative materials and strategies to increase the electrochemical surface areas
+											<br>
+											4. Limitations: difficulties in engaging <strong>specific types of cells</strong> and <strong>confined regions</strong>; chronic implantation can result in <strong>fibrotic responses</strong> and the development of scar tissue
+											<br></br>
+											<strongi>Thermal</strongi>
+											<br>
+											1. Mechanism: temperature <strong>induced changes in the cell memebrain capacitance</strong> and changes in the conductance of thermosensitive transient receptor potential ion channels
+											<br>
+											2. Current directions: stimulation based on upconverting nanoparticles; thermal conversion <i>via</i> magnetic nanoparticles; mesostructured silicon particles for fast photothermal effects
+											<br>
+											3. Limitations: materials must <strong>maintain close proximity to the cells</strong> of interest, without diffusion or movement through the tissue
+											<br></br>
+											<strongi>Optical</strongi>
+											<br>
+											1. Mechanism: use of photosensitive ion channels or proteins expressed in genetically modified neurons - optogenetics
+											<br>
+											2. Advantages: high <strong>temporal precision</strong> and <strong>single cell type precision</strong> within the illumination volume
+											<br>
+											3. Current directions: optical fibers or planar silica waveguides; mechanoluminescent nanoparticles
+											<br>
+											4. Limitations: toxicity concerns and potential for parasitic heating
+											<br></br>
+											<strongi>Pharmacological</strongi>
+											<br>
+											1. Advantages: target specific endogenous systems; avoid the need for expression of non-mammalian proteins and not requirement of implantable devices
+											<br>
+											2. Current directions: overcoming the <strong>limited temporal resolution</strong> and the inability to program and <strong>selectively modulate specific somatic sites</strong>
+											<br>
+											3. Challenges: microfluidic pharmacological techniques for enhancing chemical storage and spatiotemporal resolution
+										</div>
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+
+
+					<div class="actions">
+						<a href="#openModal_jan2020">
+							<!-- <div style="background-color: #ffffdd"> -->
+							<div style="background-color: #FFFFFF">
+
+								<div class="box">
+									<h3>A wireless millimeter-scale implantable neural stimulator with ultrasonically powered bidirectional communication
+									</h3>
+									<h4><i>Nature biomedical engineering</i> (2020)</h4>
+									<div class = "box alt">
+										<div class="row gtr-50 gtr-50">
+											<div class = "col-12">
+												<span class="image fit">
+													<img src="images_readings/mote.jpg" alt="" />
+												</span>
+											</div>
+										</div>
+										<ul>
+											<li>
+												<strong>
+													<i>neural stimulation</i>
+												</strong>
+											</li>
+											<li>
+												<strong>
+													<i>ultrasonic power transmission</i>
+												</strong>
+											</li>
+										</ul>
+									</div>
+									<div id="openModal_jan2020" class="modalDialog">
+										<div>
+											<a href="#close" title="" class="close">&times;</a>
+											<h3>
+												<a href="https://www.nature.com/articles/s41551-020-0518-9" target="_blank">Piech et al., A wireless millimeter-scale implantable neural stimulator with ultrasonically powered bidirectional communication, <em>Nat. Biomed. Eng</em>, 2020.</a>
+											</h3>
+
+											<strong>Summary</strong>
+											<br>
+											This paper deals extracellular <strong1>electrophysiological stimulation</strong1> which has been useful in terms of application in neuroscience and clinical therapies.
+											They built a wireless, leadless and battery-free <strong1>implantable neural simulator</strong1> that incorporates <strong1>piezoceramic transducer</strong1>, and <strong1>energy-storage capacitor</strong1>.
+											This reduced the total implant size and prolonged the tissue interface longevity by removing transcutaneous wires.
+											This overcomes the limitations of the previous technologies such as:
+											1) cochlear implant stimulators which are large and operate only at shallow depth; and
+											2) neurostimulators and programmed registers
+											which rely on a recovered clock, are computationally intensive, and are sensitive to changes in waveforms.
+											<br></br>
+											<strong>Strategies</strong><br/>
+											<strongi>S-1: External transceiver control</strongi><br>
+											The external transceiver toggled from Tx to Rx mode during the ‘off ’ periods of the transmit signal.
+											This captured and demodulated <strong1>uplink data from the acoustic signal</strong1> backscattered by the mote
+											<br><br/>
+											<strongi>S-2: Utilizing the ultrasound envelope</strongi><br>
+											Utilized the shape of the incoming ultrasound envelope.
+											This encoded <strong1>stimulation parameters</strong1> and eliminated the need for an on chip, <strong1>continuously running clock</strong1> to ensure timing precision with reduced power consumption
+											<br></br>
+											<strongi>S-3: Creation of an interphase gap</strongi><br>
+											The chip was in standby mode during state G and the stimulation
+											electrode was tri-stated to create an interphase gap.
+											This decreased <strong1>stimulation thresholds</strong1> in auditory nerves, motor nerves and retinal ganglion cells, as well as
+											decreasing <strong1>perceptual thresholds</strong1> in patients with cochlear implants or epiretinal prosthesis
+											<br></br>
+											<strongi>S-4: Ultrasonic link</strongi><br>
+											High link efficiencies at sub-millimetre transducer sizes and centimetre-scale depths in tissue
+										</div>
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+
+				</div>
+				<div class="col-4 col-12-medium">
+
+					<div class="actions">
+						<a href="#openModal_dec2019">
+							<!-- <div style="background-color: #e4f9ff"> -->
+							<div style="background-color: #FFFFFF">
+
+								<div class="box">
+									<h3>Sono-optogenetics facilitated by a circulation delivered rechargeable light source for minimally invasive optogenetics</h3>
+									<h4><i>Nature biomedical engineering</i> (2019)</h4>
+									<div class = "box alt">
+										<div class="row gtr-50 gtr-50">
+											<span class="image fit">
+												<img src="images_readings/sona_1.jpg" alt="" />
+											</span>
+										</div>
+									</div>
+									<ul>
+										<li>
+											<strong><i>optogenetics</i></strong>
+										</li>
+										<li>
+											<strong><i>focused ultrasound</i></strong>
+										</li>
+										<li>
+											<strong><i>nanoparticles</i></strong>
+										</li>
+									</ul>
+									<div id="openModal_dec2019" class="modalDialog">
+										<div>
+											<a href="#close" title="" class="close">
+												&times;
+											</a>
+											<h3>
+												<a href="https://www.pnas.org/content/116/52/26332" target="_blank">Wu et al., Sono-optogenetics facilitated by a circulation delivered rechargeable light source for minimally invasive optogenetics, <em>PNAS</em>, 2019.</a>
+											</h3>
+											<strong>Summary </strong>
+											<br/>
+											<strong1><i>In vivo</i> optogenetic modulation</strong1> requires invasive craniotomy and intracranial implantation of tethered optical fibers due to the limited tissue penetration of visible light.
+											Most of current interfaces however, not only perturbs endogenous neural activities but also leaves permanent damage of tissues.
+											This group implemented so called sono-optogenetics - a combination of <strong1>focused ultrasound</strong1> (FUS) excitation and <strong1>intravenous delivery of mechanoluminescent nanoparticles</strong1> -
+											for fiber free optogenetics through intact scalp and skull in live animals.
+											This overcomes the previous limitiations of methods such as:
+											1) opsins with red-shifted activation spectra/2-photon stimulation and
+											2) intracranial injection of upconversion nanoparticles,  which require partial removal of scalp and skull or uses intracranial delivery of photoluminescent agents into deep brain.
+											<br></br>
+											<strong>Strategies</strong><br>
+											In brief, they achieved sono-optogenetics through three strategies:
+											1) use of FUS for replacing the direct light illumination;
+											2) intravenous delivery of light source; and
+											3) developing a light source based on mechanoluminescent nanoparticles.
+											<br></br>
+											<strong>Mechanism</strong>
+											<br>
+											<strongi>M-1: Photoexcitation</strongi><br>
+											ZnS has a bandgap energy of 3.7 eV, leading to efficient absorption of ultraviolet light and excitation of electrons to the conduction band
+											<br></br>
+											<strongi>M-2: Defect induced trapping</strongi><br>
+											Co2+ dopant ions in the ZnS matrix create <strong1>defect states</strong1> with a <strong>trap depth of 0.5 eV below the conduction band</strong>, which trap the excited electrons and store the photoexcitation energy without emission
+											<br></br>
+											<strongi>M-3: FUS triggered detrapping</strongi><br>
+											When FUS is applied, the mechanical stress leads to charge separation in the <strong1>piezoelectric ZnS matrix</strong1>, effectively tilting the conduction band and making it easier for the trapped electrons to return to the conduction band
+											<br></br>
+											<strongi>M-4: Energy transfer and photoemission</strongi><br>
+											Ag+ dopant ions receive the energy transferred from the detrapped electrons and finally produces a 470-nm emission light
+											<br></br>
+											<strong>Limitations</strong>
+											<br>
+											In order to implement sono-optogenetics <i>in vivo</i>, such limitations remains to be handled:
+											1) <strong>toxicity concerns</strong> related to nanoparticles intravenous delivery;
+											2) developing a body-mounted systems for generation of FUS; and
+											3) potential concerns for <strong>parasitic heating</strong>.
+										</div>
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+
+					<div class="actions">
+						<a href="#openModal_jul2019">
+							<!-- <div style="background-color: #cff6cf"> -->
+							<div style="background-color: #FFFFFF">
+								<div class="box">
+									<h3>Scalable ultrasmall three-dimensional nanowire transistor probes for intracellular recording </h3>
+									<h4><i>Nature nanotechnology</i> (2019)</h4>
+									<div class = "box alt">
+										<div class="row gtr-50 gtr-50">
+											<span class="image fit">
+												<img src="images_readings/scalable_1_3.jpg" alt="" />
+											</span>
+										</div>
+									</div>
+									<ul>
+										<li>
+											<strong><i>intracellular electrophysiology</i></strong>
+										</li>
+										<li>
+										<strong><i>nanowire FET</i></strong>
+									</li>
+								</ul>
+								<div id="openModal_jul2019" class="modalDialog">
+									<div>
+										<a href="#close" title="" class="close">
+											&times;
+										</a>
+										<h3>
+											<a href="href="https://www.nature.com/articles/s41565-019-0478-y target="_blank">Zhao et al., Scalable ultrasmall three-dimensional nanowire transistor probes for intracellular recording, <em>Nat. Nanotechnol.</em>, 2019.</a>
+										</h3>
+										<strong>Problem dealt and its significance</strong>
+										<br/>
+										<strong1>Intracellular probes</strong1> are required towards deeper understanding of electrogenic cells and their networks in tissues.
+										However, there is a trade-off between <strong1>device scalability</strong1> and <strong1>recording amplitude</strong1>.
+										Previous approaches include patch-clamp electrodes and 3D nanowire field-effect transistor (FET) probes which
+										rely on one-by-one fabrication that is difficult to scale up.
+										The group fixed this issue by implementing scalable nanowire FET probe arrays
+										with controllable tip geometry and sensor size enabling high amplitude intracellular action potentials recording.
+										They fabricated this system by taking two strategies:
+										1) large-scale and shape-controlled deterministic assembly; and
+										2) <strong1>spatially defined solid-state transformation</strong1>.
+										<br></br>
+										<strong>Fabrication process</strong>
+										<br/>
+										1) Ni sacrificial layer patterning and deposition
+										<br/>
+										2) Si3N4 passivation layer patterning and deposition
+										<br/>
+										3) Patterning on PR
+										<br/>
+										4) Shape controlled deterministic NW assembly
+										<br/>
+										5) Deposition of Al2O3
+										<br/>
+										6) Cr/Au/Cr interconnects patterning and deposition
+										<br/>
+										7) Ni diffusion layer patterning and deposition
+										<br/>
+										8) Ni sacrificial layer and diffusion layer removal
+										<br></br>
+										<strongi>Intracellular recording validation</strongi>
+										<br>
+										1) Full amplitude intracellular action potential (AP) recording on DRG neurons and HiPSC-CMs
+										<br>
+										2) Subthreshold activity observation
+										<br></br>
+										<strongi>Study of size and geometry effect for intracellular recording</strongi>
+										<br>
+										1) Geometry effects: <strong1>increasing ROC</strong1> correlates with <strong1>lower recorded max amplitude</strong1>
+										<br>
+										2) Sensor size effects: <strong1>reducing FET channel length</strong1> has correlation with <strong1>increases in max measured AP amplitude</strong1>
+										<br>
+										3) Recording duration: independent of ROC but correlates with channel length in case of HiPSC-CMs
+										<br></br>
+										<strong>Challenges</strong>
+										<br>
+										Currently, there are limited number of recording channels; and lack of long-term stability of the intracellular recording.
+									</div>
+								</div>
+							</div>
+						</div>
+					</a>
+					</div>
+
+					<div class="actions">
+						<a href="#openModal_jun2019">
+							<!-- <div style="background-color: #e4f9ff"> -->
+							<div style="background-color: #FFFFFF">
+
+								<div class="box">
+									<h3>Noninvasive neuroimaging enhances continuous neural tracking for robotic device control</h3>
+									<h4><i>Science robotics</i> (2019)</h4>
+									<div class = "box alt">
+										<div class="row gtr-50 gtr-50">
+											<span class="image fit">
+												<img src="images_readings/noninvasive.jpg" alt="" />
+											</span>
+										</div>
+									</div>
+									<ul>
+										<li>
+											<strong><i>EEG-base BCI</i></strong>
+										</li>
+										<li>
+											<strong><i>target tracking</i></strong>
+										</li>
+									</ul>
+									<div id="openModal_jun2019" class="modalDialog">
+										<div>
+											<a href="#close" title="" class="close">
+												&times;
+											</a>
+											<h3>
+												<a href="https://robotics.sciencemag.org/content/4/31/eaaw6844" target="_blank">Edelman et al., Noninvasive neuroimaging enhances continuous neural tracking for robotic device control, <em>Sci. Robot.</em>, 2019.</a>
+											</h3>
+											<strong>Summary</strong>
+											<br/>
+											<strong1>Brain-computer interfaces</strong1> (BCIs) using signals acquired with intracortical implants are useful for completing daily tasks.
+											However, the substantial amount of medical and surgical expertise limits their use beyond a few clinical cases.
+											This work implemented a noninvasive framework for the <strong1>continuous EEG-based two-dimensional control of a physical robotic arm</strong1>.
+											This overcame the previous limitations of approaches such as
+											1) discrete trials of neural control; and
+											2) electrical source imaging (ESI) which do not account for the <strong1>random perturbations</strong1> or has not been validated online.
+											<br></br>
+											<strong>Strategies</strong><br>
+											<strongi>S-1: Continuous pursuit task</strongi><br>
+											Users performed <strong1>motor imagination</strong1> to chase a randomly moving target, which verified
+											stronger <strong1>behavioral and physiological learning effects</strong1>
+											<br></br>
+											<strongi>S-2: Real-time ESI platform </strongi><br>
+											Isolates and evaluates neural decoding in both the sensor and the source domains without introducing the confounding online processing steps
+										</div>
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+
+
+
+
+				</div>
+
+				<div class="col-4 col-12-medium">
+
+					<div class="actions">
+						<a href="#openModal_jan2019">
+							<div style="background-color: #FFFFFF">
+								<div class="box">
+									<h3>Ultrasonic sculpting of virtual optical waveguides in tissue</h3>
+									<h4><i>Nature communications</i> (2019)</h4>
+									<div class = "box alt">
+										<div class="row gtr-50 gtr-50">
+											<span class="image fit">
+												<img src="images_readings/ultrasonic.jpg" alt="" />
+											</span>
+										</div>
+									</div>
+									<ul>
+										<li>
+											<strong><i>optical waveguide</i></strong>
+										</li>
+										<li>
+										<strong><i>ultrasound</i></strong>
+									</li>
+								</ul>
+								<div id="openModal_jan2019" class="modalDialog">
+									<div>
+										<a href="#close" title="" class="close">
+											&times;
+										</a>
+										<h3>
+											<a href="https://www.nature.com/articles/s41467-018-07856-w" target="_blank">Chamanzar et al., Ultrasonic sculpting of virtual optical waveguides in tissue, <em>Cell</em>, 2020.</a>
+										</h3>
+										<strong>Summary</strong><br>
+										Since the advent of optogenetics, the need to <strong1>deliver light into the deep tissue</strong1> has been on a constant rise.
+										Optical fibers or waveguides serve this need with minimal light scattering but induce tissue damage.
+										This work utilizes <strong1>ultrasonic acoustic waves</strong1> to steer the trajectory of light by creating local pressure differences, resulting in <strong1>refractive index contrasts</strong1> similar to graded-index (GRIN) fiber.
+										They created virtual light pipes deep into the tissue, with penetration depth of more than 18 scattering mean free paths.
+										<br></br>
+										<strong>Experiments</strong><br>
+										<strongi>E-1: Sculpting optical modes with ultrasonic standing waves </strongi><br>
+										They employed an ultrasound transducer array to produce standing waves within a cylindrical cavity at discrete resonance frequency.
+										This system achieved a maximum refractive index contrasts of 1.8e-3, which could support multiple <strong1>confined optical guided modes</strong1>.
+										<br></br>
+										<strongi>E-2: Confining light in scattering media</strongi><br>
+										They characterized ultrasonically sculpted optical waveguides in 20% emulsion agar gel matrix tissue phantom.
+										The results demostrated that ultrasonically sculpted optical wave guides  can <strong>confine and guide light</strong> through <strong>8 mm thick phantom</strong> with 18.8 scattering mean free paths depth.
+										<br></br>
+										<strongi>E-3: Steering light using reconfigurable ultrasonic waves</strongi><br>
+										They tested the hypothesis of changing the patter of confined light by using different patterns of high-pressure regions in the tissue at different relative phases.
+										They demonstrated patters such as dipole mode and eight-segment array by modulating the ultrasound phase and frequency in a cylindrical 8 transducer system.
+										<br></br>
+										<strongi>E-4: Guiding light in the mouse brain tissue</strongi><br>
+										They tested the method on a <strong>240 um thick fixed slice</strong> using 480 nm wavelength blue light.
+										At the wavelength, light could penetrate about 7 scattering mean free path showing a visible circular shape.
+										<br></br>
+										<strong>Limitations</strong><br>
+										First, this technique does not address <strong1>absorption</strong1>.
+										It can guide fair amount of light into the deep tissue but the decay rate of light intensity with respect to depth is considerable and has to be improved.
+										Another issue is the <strong1>ultrasound propagation loss in the skull</strong1>.
+										To overcome this challenge this method will necessitate the use of craniotomy windows to place an arrya of ultrasound transducers on the surface of the brain.
+									</div>
+								</div>
+							</div>
+						</div>
+					</a>
+				</div>
+
+					<div class="actions">
+						<a href="#openModal10">
+							<div style="background-color: #FFFFFF">
+
+								<div class="box">
+									<h3>
+										A wireless and artefact free 128-channel neuromodulation device for closed-loop stimulation and recording in non-human primates
+									</h3>
+									<h4><i>Nature biomedical engineering</i> (2018)</h4>
+									<div class = "box alt">
+										<div class="row gtr-50 gtr-50">
+											<div class="col-12">
+												<span class="image fit">
+													<img src="images_readings/wand_1_1.jpg" alt="" />
+												</span>
+											</div>
+										</div>
+										<ul>
+											<li>
+												<strong><i>closed-loop neuromodulation</i></strong>
+											</li>
+											<li>
+												<strong><i>stimulation artefact cancellation</i></strong>
+											</li>
+										</ul>
+									</div>
+									<div id="openModal10" class="modalDialog">
+										<div>
+											<a href="#close" title="" class="close">&times;</a>
+											<h3>
+												<a href="https://www.nature.com/articles/s41551-018-0323-x" target="_blank">Zhou et al., A wireless and artefact-free 128-channel neuromodulation device for closed-loop stimulation and recording in non-human primates, <em>Nat. Biomed. Eng.</em>, 2018.</a>
+												</h3>
+												<strong>Summary</strong>
+												<br/>
+												Closed-loop neuromodulation systems aim to treat a variety of neurological conditions by delivering and adjusting therapeutic electrical stimulation
+												in response to a patient’s neural state which is recorded in real time.
+												However, existing systems are limited by <strong>low channel counts</strong>, lack of <strong>algorithmic flexibility</strong>,
+												and the distortion of recorded signals by large and persistent <strong>stimulation artefacts</strong>.
+												<br></br>
+												<strong>Previous approaches and their limitations</strong>
+												<br/>
+												1) typical closed-loop devices &rarr; low-channel counts and low wireless streaming bandwidth
+												<br/>
+												2) closed-loop neuromodulation system-on-a-chip &rarr; full functionality has not yet been demonstrated in-vivo
+												<br></br>
+												<strong>Strategies</strong><br>
+												Wireless artefact-free neuromodulation device that enables closed-loop and responsive neuromodulation applications
+												<br>
+												<strong>S-1</strong>
+												Neuromodulation IC design for delivering stimulation pulses and recording LFPs
+												<br>
+												<strong>S-2</strong>
+												Front ends are designed simltaneously for low-noise recording and a large linear input to address both
+												direct and indirect artefacts
+												<br>
+												<strong>S-3</strong>
+												Architecture resets at every sample enabling memoryless sampling and rapid recovery from stimulation artefacts
+											</div>
+										</div>
+									</div>
+								</div>
+							</a>
+						</div>
+
+						<div class="actions">
+							<a href="#openModal_jun2018">
+								<!-- <div style="background-color: #f6def6"> -->
+								<div style="background-color: #FFFFFF">
+
+									<div class="box">
+										<h3>Prosthesis with neuromorphic multilayered e-dermis perceives touch and pain</h3>
+										<h4><i>Science robotics</i> (2018)</h4>
+										<div class = "box alt">
+											<div class="row gtr-50 gtr-50">
+												<div class="col-12">
+													<span class="image fit">
+														<img src="images_readings/edermis.jpg" alt="" />
+													</span>
+												</div>
+											</div>
+											<ul>
+												<li>
+													<strong><i>tactile feedback neuroprosthesis</i></strong>
+												</li>
+												<li>
+													<strong><i>electronic dermis</i></strong>
+												</li>
+											</ul>
+										</div>
+										<div id="openModal_jun2018" class="modalDialog">
+											<div>
+												<a href="#close" title="" class="close">
+													&times;
+												</a>
+												<h3>
+													<a href="https://robotics.sciencemag.org/content/3/19/eaat3818/tab-pdf" target="_blank">Osborn et al., Prosthesis with neuromorphic multilayered e-dermis perceives touch and pain, <em>Sci. Robot.</em>, 2018.</a>
+												</h3>
+												<strong>Summary</strong>
+												<br/>
+												Advances in prosthesis designs and control mechanisms can aid an amputee’s ability to regain lost function, but often lack meaningful tactile feedback or perception.
+												Current sensory feedback technology is limited in terms of sensations such as pressure, proprioception, and texture.
+												They created a piezoresistive and conductive fabric sensor inspired by the mechanoreceptors and nociceptors  which resolved the issue.
+
+												<br></br>
+												<strong>Strategies</strong>
+												<br>
+												<strongi>S-1: Multilayered electronic dermis</strongi><br>
+												Provide tactile information to enable the perception of touch and pain in an upper limb amputee and prosthesis
+												<br></br>
+												<strongi>S-2: Neuromorphic interface</strongi><br>
+												The interface was inspired by the biological activity from tactile receptors by employing the Izhikevich model of spiking neurons
+												<br></br>
+												<strongi>S-3: Transcutaneous electrical nerve stimulation</strongi><br>
+												Showed closed-loop feedback to a transhumeral amputee through transcutaneous electrical nerve stimulation to elicit sensations in the phantom hand
+												<br></br>
+												<strongi>S-4: Sensation calibration</strongi><br>
+												Quantified the differences in perception of sensory feedback, which added dimmensionality to the information
+										</div>
+									</div>
+								</div>
+							</a>
+						</div>
+
+
+					</div>
+
+
+				</div>
+
+
+				<header class="main"/>
+				<span class="image main">
+					<img src="images/white.jpg" alt="" width="800" height="5" />
+				</span>
+				<span class="image main">
+					<img src="images/orange_box.png" alt="" width="800" height="7" />
+				</span>
+				<span class="image main">
+					<img src="images/white.jpg" alt="" width="800" height="5" />
+				</span>
+
+
+
+				<h2>Recorded talks</h2>
+				<hr class = major />
+
+
+
+				<button type="button" class="collapsible">videos</button>
+
+				<div class="content">
+
+					<h3>José del R. Millán - <i>Merging brains and machines</i>, 2019.</h3>
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/_YmzNeReqY8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					<br><br/>
+
+
+					<h3>Miguel Nicolelis - <i>Brain machine interfaces: from basic science to neuroprostheses and neurological recovery</i>, 2019.</h3>
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/IKSVgja-AYU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>									</iframe>
+					<br><br/>
+
+					<h3>Jose Carmena - <i>Advances in brain machine interfaces</i>, 2019.</h3>
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/jbO2GveJEKE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+					<br><br/>
+
+					<h3>Krishna Shenoy - <i>Neural prosthetics</i>, 2013.</h3>
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/ZuATvhlcUU4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br><br/>
+
+
+
+				</div>
+			</section>
+
+
+			<script>
+			var coll = document.getElementsByClassName("collapsible");
+			var i;
+
+			for (i = 0; i < coll.length; i++) {
+				coll[i].addEventListener("click", function() {
+					this.classList.toggle("active");
+					var content = this.nextElementSibling;
+					if (content.style.display === "block") {
+						content.style.display = "none";
+					} else {
+						content.style.display = "block";
+					}
+				});
+			}
+
+			</script>
+		</div>
+	</div>
+
+	<!-- Sidebar -->
+	<div id="sidebar">
+		<div class="inner">
+
+			<!-- Search -->
+			<section>
+				Updated on September 13<sup>th</sup>, 2020
+
+			</section>
+
+			<!-- Menu -->
+			<nav id="menu">
+				<header class="major">
+					<h2>Menu</h2>
+				</header>
+				<ul>
+					<li>
+						<a href="index.html">Home</a>
+					</li>
+					<li>
+						<a href="projects.html">Research</a>
+					</li>
+					<!-- <li>
+					<a href="elements.html">About me</a>
+				</li> -->
+				<li>
+					<a href="readings.html">Readings</a>
+				</li>
+			</ul>
+		</nav>
+		<!-- Section -->
+		<section>
+			<header class="major">
+				<h2>Contact</h2>
+			</header>
+			<ul class="contact">
+				<li class="icon solid fa-envelope"><a style="font-family: Arial;" href="mailto:minsuzhang@utexas.edu">minsuzhang@utexas.edu</a></li>
+				<li class="icon brands fa-linkedin"><a style="font-family: Arial;" href="https://www.linkedin.com/in/minsuzhang/" target="_blank"><span class="icon"> Minsu Zhang</span></a></li>
+				<li class="icon brands fa-github"><a style="font-family: Arial;" href="https://github.com/minsuzhang" target="_blank"><span class="icon"> minsuzhang</span></a></li>
+				<li class="icon brands fa-instagram"><a style="font-family: Arial;" href="https://www.instagram.com/cooking.in.austin/" target="_blank">cooking.in.austin</a></li>
+
+			</ul>
+		</section>
+
+	</div>
+</div>
+</div>
+
+<!-- Scripts -->
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/browser.min.js"></script>
+<script src="assets/js/breakpoints.min.js"></script>
+<script src="assets/js/util.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
