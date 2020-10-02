@@ -743,21 +743,42 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
 												<br></br>
 												<strongi>2. Closed-loop neuroscience through EEG-triggered TMS</strongi><br>
 												&mdash; TMS has a spatial resolution of millimeters and a temporal resolution of microseconds.<br>
-												&rarr; with the ability to stimulate the brain directly using TMS, the environment that is coupled to the neural system can be a simulation running on a computer.<br>
-												&rarr; by providing environement-like closed-loop feedback protocols, a bi-directionally coupled device can implement therapeutic stimulation paradigms on a microchip that are designed to remodel
-												dysfunctional networks by providing the kind of output-input relationships that the network would experience during natural interactions with the environment.
+												&rarr; With the ability to stimulate the brain directly using TMS, the environment that is coupled to the neural system can be a simulation running on a computer.<br>
+												&rarr; By providing environement-like closed-loop feedback protocols, a bi-directionally coupled device can implement therapeutic stimulation paradigms on a microchip that are designed to remodel
+												dysfunctional networks by providing the kind of output-input relationships that the network would experience during natural interactions with the environment.<br></br>
+												&mdash; Changes in spectral power in a specific frequency band has been successfully utilized for BMI-based robot-assisted motor tasks.<br>
+												&rarr; Closing the loop on instantaneous phase has been recently possible in a millisecond latency EEG-TMS setup.<br>
+												&rarr; In order to go beyond, we need to incorporate the task dynamics loop.
 												<br></br>
 												<strongi>3. Technical challenges</strongi><br>
+												A closed-loop setup requires: 1) brain output measurement stage; 2) signal processing stage; and 3) stimulus modulation stage<br></br>
+												The performance of the closed-loop system can be characterized by:<br>
+												1) fundamental sample-time of the processor;
+												2) bandwidth of acquired data;
+												3) complexity of computations tha can be performed within a single time-step;
+												4) overall feedback latency throught the loop from signal to stimulus; and
+												5) jitter in the latency<br></br>
+												High dynamic range 24 bit ADC enables the TMS artifact duration to be reduced to 10 ms.<br>
+												&rarr;  But this excludes muscle artifacts, somatosensory, auditory and other TMS-evoked potentials that needs ICA.<br></br>
+												Real-time analysis of the biosignal data is the key limitation.<br>
+												Only a sliding window of data prededing the current time point can be considered.
+												<br></br>
+												<strong>CLOSED-LOOP NEUROPHYSIOLOGY</strong><br>
+												The two important questions:<br>
+												1. How does the TMS pulse evoke cortico-spinal activity? <br>
+												2. Which oscillatory brain activity serves which functional role?<br></br>
 
 												<br></br>
-												<strong>CLOSED-LOOP NEUROPHYSIOLOGY</strong>: Two important questions<br>
-												1. How does the TMS pulse evoke cortico-spinal activity? <br>
-												2. Which oscillatory brain activity serves which functional role?
-												<br></br>
-												<strong>CLOSED-LOOP THERAPY</strong>: can be applied in two ways<br>
+												<strong>CLOSED-LOOP THERAPY</strong><br>
+												The two ways:<br>
 												1. Control-system theory approach: Using the feedback stimulus as a regulator &rarr; reset the local excitability and activity of a network<br>
-												2. Neuromodulatory approach: Using a stimulus train to induce specific long-term plastic changes &rarr; rewire the connectivity of the network
-												<br>
+												2. Neuromodulatory approach: Using a stimulus train to induce specific long-term plastic changes &rarr; rewire the connectivity of the network<br></br>
+
+												The advantages of behavior-in-the-loop setup:<br>
+												1. Neuromodulation can be personalized to individual network function<br>
+												2. Time-course of dynamic changes during network reorganization can be taken into account<br>
+												3. Behavior-in-the-loop set-ups can additionally capitalize on agency and subjectivity of brain-environment interactions<br>
+												<br></br>
 												1. Brain-states dynamics loop: couple with and modulate the trajectory of neuronal activity patterns<br>
 												2. Task dynamics loop: bidirectional motor-sensory interaction between brain and simulated environments
 										</div>
