@@ -1,0 +1,264 @@
+<!DOCTYPE HTML>
+<!--
+Editorial by HTML5 UP
+html5up.net | @ajlkn
+Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+<style>
+.modalDialog {
+	position: fixed;
+	font-family: Arial;
+	font-size: 14px;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 1; /* Sit on top */
+	opacity:0;
+	pointer-events: none;
+	width: 100%; /* Full width */
+	height: 100%; /* Full height */
+	overflow: auto; /* Enable scroll if needed */
+	background-color: rgba(0,0,0,0.5); /* Black w/ opacity */
+}
+.modalDialog:target {
+	opacity:1;
+	pointer-events: auto;
+}
+.modalDialog > div {
+	width: 90%;
+	position: relative;
+	margin: 5% auto;
+	padding: 13px 20px 13px 20px;
+	border-radius: 10px;
+	background-color: #fefefe;
+	border: 1px solid #888;
+}
+.close {
+	background: #606061;
+	color: #FFFFFF;
+	line-height: 25px;
+	position: absolute;
+	right: -12px;
+	text-align: center;
+	top: -10px;
+	width: 24px;
+	text-decoration: none;
+	font-weight: bold;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+	-moz-box-shadow: 1px 1px 3px #000;
+	-webkit-box-shadow: 1px 1px 3px #000;
+	box-shadow: 1px 1px 3px #000;
+}
+.close:hover {
+	color: #000;
+	text-decoration: none;
+	cursor: pointer;
+}
+.collapsible {
+	background-color: white;
+	color: white;
+	cursor: pointer;
+	padding: 0px 11px;
+	/* width: 10%; */
+	border: 0;
+	text-align: middle;
+	outline: none;
+	font-size: 12px;
+}
+
+.collapsible:hover {
+	background-color: rgba(245, 106, 106, 0.25);
+
+}
+.active{
+	background-color: white;
+}
+
+.content {
+	padding: 18px;
+	display: none;
+	overflow: hidden;
+	background-color: #f1f1f1;
+	font-family: "View details Sans", sans-serif;
+	font-size: 1em
+	margin: 2em 0 0 0;
+
+}
+</style>
+<head>
+	<title>Minsu Zhang - Doctoral Student - UT Austin</title>
+	<meta name="robots" content="index,follow" />
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<link rel="icon" href="images/mz.png">
+</head>
+<body class="is-preload">
+
+	<!-- Wrapper -->
+	<div id="wrapper">
+
+		<!-- Main -->
+		<div id="main">
+			<div class="inner">
+
+				<!-- Header -->
+				<header id="header">
+					<a href="index.html" class="logo">
+						<strong>Minsu Zhang</strong> personal website
+					</a>
+				</header>
+				<section>
+					<h2>Documents <u>without data</u></h2>
+					<div class="row">
+						<div class="col-11 col-12-small" style="font-family: sans-serif">
+							<div class="table-wrapper">
+								<table>
+									<thead>
+										<tr>
+											<th>Date</th>
+											<th>Description</th>
+											<th>File</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>11/12/2020</td>
+											<td>Research Diary</td>
+											<td><a href="doc/Research 11.12.2020 .pdf" target="_blank">PDF</a></td>
+										</tr>
+										<tr>
+											<td>11/11/2020</td>
+											<td>Research Diary</td>
+											<td><a href="doc/Research 11.11.2020 Uncertainty model.pdf" target="_blank">PDF</a></td>
+										</tr>
+										<tr>
+											<td>11/10/2020</td>
+											<td>Research Progress Report & Journal Club</td>
+											<td><a href="doc/Weekly Report Minsu Zhang 11102020.pdf" target="_blank">PDF</a></td>
+										</tr>
+										<tr>
+											<td>11/08/2020</td>
+											<td>Research Diary</td>
+											<td><a href="doc/Research 11.08.2020 Kalman filter.pdf" target="_blank">PDF</a></td>
+										</tr>
+										<tr>
+											<td>11/01/2020</td>
+											<td>Lab Attendance Summary - October</td>
+											<td><a href="doc/Lab Attendance Oct 2020.pdf" target="_blank">PDF</a></td>
+										</tr>
+										<tr>
+											<td>10/31/2020</td>
+											<td>Research Diary</td>
+											<td><a href="doc/Research 10.31.2020 Wavelet transform.pdf" target="_blank">PDF</a></td>
+										</tr>
+										<tr>
+											<td>10/30/2020</td>
+											<td>Research Diary</td>
+											<td><a href="doc/Research 10.30.2020.pdf" target="_blank">PDF</a></td>
+										</tr>
+										<tr>
+											<td>10/20/2020</td>
+											<td>Research Progress Report</td>
+											<td><a href="doc/Weekly Report Minsu Zhang 10202020.pdf" target="_blank">PDF</a></td>
+										</tr>
+										<tr>
+											<td>08/25/2020</td>
+											<td>Graphical Research Summary</td>
+											<td><a href="doc/GraphicalResearchSummary_Aug_2020.pdf" target="_blank">PDF</a></td>
+										</tr>
+										<tr>
+											<td>11/29/2019</td>
+											<td>Statement of Purpose - UT Austin</td>
+											<td><a href="doc/SOP_Minsu_Zhang_UT lett.pdf" target="_blank">PDF</a></td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+					</div>
+				</div>
+			</section>
+
+
+</article>
+
+</section>
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+	coll[i].addEventListener("click", function() {
+		this.classList.toggle("active");
+		var content = this.nextElementSibling;
+		if (content.style.display === "block") {
+			content.style.display = "none";
+		} else {
+			content.style.display = "block";
+		}
+	});
+}
+</script>
+
+</section>
+</div>
+</div>
+
+<!-- Sidebar -->
+<div id="sidebar">
+	<div class="inner">
+
+		<!-- Search -->
+		<section>
+			Updated on Nov. 14<sup>th</sup>, 2020
+		</section>
+
+		<!-- Menu -->
+		<nav id="menu">
+			<header class="major">
+				<h2>Menu</h2>
+			</header>
+			<ul>
+				<li>
+					<a href="index.html">Home</a>
+				</li>
+				<li>
+					<a href="projects.html">Research</a>
+				</li>
+				<li>
+					<a href="docs.html">Documents</a>
+				</li>
+			</ul>
+		</nav>
+		<!-- Section -->
+		<section>
+			<header class="major">
+				<h2>Contact</h2>
+			</header>
+			<ul class="contact">
+				<li class="icon solid fa-envelope"><a style="font-family: Arial;" href="mailto:minsuzhang@utexas.edu">minsuzhang@utexas.edu</a></li>
+				<li class="icon brands fa-linkedin"><a style="font-family: Arial;" href="https://www.linkedin.com/in/minsuzhang/" target="_blank"><span class="icon"> Minsu Zhang</span></a></li>
+				<!-- <li class="icon brands fa-github"><a style="font-family: Arial;" href="https://github.com/minsuzhang" target="_blank"><span class="icon"> minsuzhang</span></a></li> -->
+				<li class="icon brands fa-instagram"><a style="font-family: Arial;" href="https://www.instagram.com/cooking.in.austin/" target="_blank">cooking.in.austin</a></li>
+
+			</ul>
+		</section>
+		<!-- Footer -->
+
+	</div>
+</div>
+</div>
+
+<!-- Scripts -->
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/browser.min.js"></script>
+<script src="assets/js/breakpoints.min.js"></script>
+<script src="assets/js/util.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
