@@ -1,2 +1,3 @@
 # minsuzhang.github.io
-personal website
+Minsu Zhang personal website
+[https://minsuzhang.github.io/]: (https://minsuzhang.github.io/)
